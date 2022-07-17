@@ -1,0 +1,928 @@
+html {
+    font-size: 16px;
+    font-family: 'Trispace', sans-serif;
+    /*color: black;*/
+}
+body {
+    width: 100%;
+    margin: 0rem;
+}
+
+a {
+    transition: all 0.5s ease-out;
+}
+/*Header*/
+header {
+    width: 100%;
+    height: 4rem;
+}
+
+.nav-text-mobile {
+    display: none;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    line-height: 2;
+}
+
+.fixed-top {
+    position: fixed;
+    z-index: 1030;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid whitesmoke;
+    background-color: white;
+}
+
+.nav-logo {
+    padding-left: 1.875rem;
+    font-family: 'Pacifico', cursive;
+    font-weight: 900;
+    letter-spacing: 0.125rem;
+}
+
+.nav-logo a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-text-desktop{
+    margin-left: auto;
+    margin-right: 1.875rem;
+}
+
+.nav-items,
+.nav-items-mobile {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-items li,
+.nav-items-mobile li {
+    padding-right: 1.56rem;
+
+}
+
+.nav-items a,
+.nav-items-mobile a {
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    border-radius: 1.25rem;
+    padding: 0.75rem;
+}
+
+.nav-items a:hover {
+    background-color: orange;
+    color: white;
+    opacity: 0.5;
+}
+
+
+/*Main*/
+main {
+    margin-top: 6.25rem;
+}
+
+.introduction-desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction-mobile {
+    display: none;
+}
+
+.intro-text {
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
+}
+
+.intro-text h3{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.typewriter {
+    overflow: hidden;   
+    border-right: 0.5rem solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.5rem;
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+  /*Introductory*/
+.intro-text h4, h5 {
+    font-size: 1.87rem;
+    margin-bottom: 0.75rem;
+    margin-top: 1.25rem;
+    font-weight: 300;
+}
+
+.intro-text span {
+    font-size: 1.125rem;
+    margin-bottom: 0.75rem;
+    font-weight: 300;
+}
+
+.intro-icon img{
+    width: 33.75rem;
+    cursor: pointer;
+}
+
+.button {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+    border-radius: 5%;
+    padding: 0.31rem;
+    border-radius: 1.875rem;
+    border: 0.5px solid orange;
+    padding: 1rem;
+}
+
+.button a:hover {
+    background-color: orange;
+    color: white;
+}
+
+.contact-button {
+    margin-right: 1.875rem;
+}
+
+.download-button {
+    margin-right: 1.875rem;
+}
+
+.socials a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.25rem;
+}
+/*Blog Post*/
+.blog {
+    /*background-color: #ffe5b4;*/
+    width: 100%;
+    margin-bottom: 1.875rem;
+}
+
+.blog-header{
+    padding-top: 0.31rem;
+    padding-bottom: 0.31rem;
+    text-align: center;  
+}
+
+.blog-header h3 {
+    font-size: 3.5rem;
+}
+
+.card-item {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.875rem;
+    flex-wrap: wrap;
+}
+
+.card-one,
+.card-two,
+.card-three {
+    background-color: white;
+    border-radius: 0.375rem;
+    width: 25.88rem;
+    height: 56.25rem;
+    border: 1px solid whitesmoke;
+    align-self: center;
+    padding: 0rem 0.75rem;
+    margin: 0.75rem 0.75rem;
+    word-break: break-word;
+}
+
+.card-img img {
+    width: 100%;
+}
+.card-title h5{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.card-title h6 {
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 0.313rem;
+}
+.card-text a {
+    text-decoration: none;
+    color: orange;
+}
+
+.card-text a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+/*Project*/
+.project-card {
+    margin-bottom: 1.875rem;
+}
+
+.project-card-mobile {
+    display: none;
+}
+
+.project-title {
+    text-align: center;
+    font-size: 3.0rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0.625rem 0.625rem;
+}
+
+.image-one {
+    background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/password-image.jpeg");
+}
+
+.image-two {
+    background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/colmar_academy.jpeg");
+}
+
+.image-three {
+    background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/rock-paper-scissors.png");
+}
+
+.image-four {
+    background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/excursion.jpeg");
+}
+
+.image-one,
+.image-two,
+.image-three,
+.image-four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 204px;
+    margin: 0.625rem;
+    cursor: pointer;
+}
+
+.image-one a,
+.image-two a,
+.image-three a,
+.image-four a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.8s;
+}
+
+.image-one:hover,
+.image-two:hover,
+.image-three:hover,
+.image-four:hover {
+    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.6) inset;
+    transition: 0.7s linear;
+}
+
+.image-one:hover a,
+.image-two:hover a,
+.image-three:hover a,
+.image-four:hover a{
+    opacity: 1;
+    transform: scale(0.8);
+}
+
+
+.profile-details-mobile {
+    display: none;
+}
+
+.profile-title {
+    text-align: center;
+    font-size: 3.0rem;
+    font-weight: 600;
+}
+
+.profile-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    /*flex-wrap: wrap;*/
+    margin: 1.875rem 1.875rem;
+}
+
+.profile-text {
+    font-weight: 300;
+}
+.profile-img {
+    width: 100%;
+}
+
+.profile-img img {
+    width: 100%;
+}
+
+.footer-container {
+    background-color: whitesmoke;
+    border-top: 1px solid whitesmoke;
+    margin-top: 1.875rem;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.875rem;
+}
+
+.footer-text span,
+.footer-text p {
+    margin: 0rem 1.875rem;
+}
+
+.footer-text a {
+    margin: 0px 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.875rem;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1023px){
+    .intro-text h3 {
+        font-size: 2rem;
+    }
+    
+    .intro-text h4, h5 {
+        font-size: 1.2rem;
+    }
+    
+    .blog-header h3,
+    .profile-title,
+    .project-title {
+        font-size: 2.5rem;
+    }
+
+    .profile-title {
+        text-align: center;
+        /*font-size: 2.5rem;*/
+        font-weight: 600;
+    }
+
+    .project-title {
+        text-align: center;
+        /*font-size: 3.0rem;*/
+    }
+      
+}
+
+@media screen and (min-width: 989px) and (max-width: 1003px) {
+    .introduction-desktop {
+        flex-wrap: wrap;
+    }
+
+    .intro-icon img {
+        width: 100%;
+    }
+
+    .intro-text h3 {
+        font-size: 1.9rem;
+    }
+
+    .intro-text h4, h5 {
+        font-size: 1.0rem;
+    }
+
+    .blog-header h3,
+    .profile-title,
+    .project-title {
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (min-width: 739px) and (max-width: 988px){
+    .nav-logo a,
+    .nav-items a {
+        font-size: 0.8rem;
+    }
+
+    .introduction-desktop {
+        flex-wrap: wrap;
+    }
+
+    .intro-text h3 {
+        font-size: 1.9rem;
+    }
+
+    .intro-text h4, h5 {
+        font-size: 0.9rem;
+    }
+
+    .intro-text span {
+        font-size: 0.9rem;
+    }
+
+    .blog-header h3,
+    .profile-title,
+    .project-title {
+        font-size: 2.1rem;
+    }
+
+    .intro-icon img {
+        width: 100%;
+    }
+    
+    .button a {
+        font-size: 0.75rem;
+    }
+
+    .card-one, .card-two, .card-three {
+        width: 15.63rem;
+    }
+
+    .card-item {
+        flex-wrap: wrap;
+    }
+
+    .project-card {
+        display: none;
+    }
+    
+    .project-card-mobile {
+        display: block;
+    }
+
+    .image-one-mobile{
+        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/password-image.jpeg");
+    }
+    
+    .image-two-mobile{
+        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/colmar_academy.jpeg");   
+    }
+    
+    .image-three-mobile {
+        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/rock-paper-scissors.png");
+    }
+    
+    .image-four-mobile{
+        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/excursion.jpeg");
+    }
+    
+    .image-one-mobile,
+    .image-two-mobile,
+    .image-three-mobile,
+    .image-four-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+        width: 400px;
+        height: 204px;
+        margin: 0.625rem;
+    }
+    
+    .image-one-mobile a,
+    .image-two-mobile a,
+    .image-three-mobile a,
+    .image-four-mobile a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.25rem;
+        opacity: 1;
+    }
+    
+    .image-three-mobile a {
+        color: black;
+    }
+
+    .profile-img img {
+        width: 25rem;
+    }
+
+    .profile-details {
+        flex-wrap: wrap;
+    }
+
+    .footer-text {
+        font-size: 0.8rem;
+    }
+}
+
+@media  screen and (min-width: 658px) and (max-width: 738px) {
+    .nav-logo a, .nav-items a {
+        font-size: 0.7rem;
+    }
+
+    .intro-text h3 {
+        font-size: 1.7rem;
+    }
+
+    .intro-text h4, h5 {
+        font-size: 0.9rem;
+    }
+
+    .intro-text span {
+        font-size: 0.9rem;
+    }
+
+    .blog-header h3,
+    .profile-title,
+    .project-title {
+        font-size: 2.1rem;
+    }
+
+    .intro-icon img {
+        width: 100%;
+    }
+    
+    .button a {
+        font-size: 0.75rem;
+    }
+
+    .card-one, .card-two, .card-three {
+        width: 18.75rem;
+    }
+
+    .card-item {
+        flex-wrap: wrap;
+    }
+
+    .project-card {
+        display: none;
+    }
+    
+    .project-card-mobile {
+        display: block;
+    }
+
+    .image-one-mobile{
+        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/password-image.jpeg");
+    }
+    
+    .image-two-mobile{
+        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/colmar_academy.jpeg");   
+    }
+    
+    .image-three-mobile {
+        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/rock-paper-scissors.png");
+    }
+    
+    .image-four-mobile{
+        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/excursion.jpeg");
+    }
+    
+    .image-one-mobile,
+    .image-two-mobile,
+    .image-three-mobile,
+    .image-four-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+        width: 400px;
+        height: 204px;
+        margin: 0.625rem;
+    }
+    
+    .image-one-mobile a,
+    .image-two-mobile a,
+    .image-three-mobile a,
+    .image-four-mobile a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.25rem;
+        opacity: 1;
+    }
+
+    .image-three-mobile a {
+        color: black;
+    }
+
+    .profile-img img {
+        width: 25rem;
+    }
+
+    .profile-details {
+        flex-wrap: wrap;
+    }
+
+    .footer-text {
+        font-size: 0.70rem;
+    }
+}
+
+@media screen and (min-width: 619px) and (max-width: 657px) {
+
+    .nav-bar {
+        flex-shrink: 2;
+    }
+
+    .nav-logo a, .nav-items a {
+        font-size: 0.65rem;
+    }
+
+    .intro-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .intro-text h4, h5 {
+        font-size: 0.7rem;
+    }
+
+    .intro-text span {
+        font-size: 0.7rem;
+    }
+
+    .blog-header h3,
+    .profile-title,
+    .project-title {
+        font-size: 1.9rem;
+    }
+
+    .intro-icon img {
+        width: 100%;
+    }
+    
+    .button a {
+        font-size: 0.70rem;
+    }
+
+    .card-one, .card-two, .card-three {
+        width: 18.75rem;
+    }
+
+    .project-card {
+        display: none;
+    }    
+
+    .project-card-mobile {
+        display: block;
+    }
+
+    .image-one-mobile{
+        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/password-image.jpeg");
+    }
+    
+    .image-two-mobile{
+        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/colmar_academy.jpeg");   
+    }
+    
+    .image-three-mobile {
+        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/rock-paper-scissors.png");
+    }
+    
+    .image-four-mobile{
+        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/excursion.jpeg");
+    }
+    
+    .image-one-mobile,
+    .image-two-mobile,
+    .image-three-mobile,
+    .image-four-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+        width: 400px;
+        height: 204px;
+        margin: 0.625rem;
+    }
+    
+    .image-one-mobile a,
+    .image-two-mobile a,
+    .image-three-mobile a,
+    .image-four-mobile a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.25rem;
+        opacity: 1;
+    }
+
+    .image-three-mobile a {
+        color: black;
+    }
+
+    .profile-img img {
+        width: 25rem;
+    }
+
+    .profile-details {
+        flex-wrap: wrap;
+    }
+
+    .footer-text {
+        font-size: 0.65rem;
+    }
+
+    .footer-text a {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 532px) {
+    main {
+        margin-top: 2rem;
+    }
+
+    .nav-text-desktop{
+        display: none;
+    }
+
+    .nav-bar {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 0rem;
+        padding-top: 0rem;
+        line-height: 2;
+    }
+    .nav-logo a {
+        font-size: 0.55rem;
+    }
+    
+    .nav-text-mobile {
+        display: flex;
+        margin-left: auto;
+        margin-right: 1.8rem;
+
+    }
+
+    .nav-items-mobile a {
+       font-size: 1.3rem;
+    }
+    .introduction-desktop {
+        display: none;
+    }
+
+    .introduction-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0rem 0.625rem;
+    }
+
+    .intro-icon {
+        width: 100%;
+    }
+
+    .intro-icon img {
+        width: 100%;
+    }
+
+    .intro-text h3 {
+        font-size: 1.4rem;
+    }
+
+    .intro-text h4, h5 {
+        font-size: 0.85rem;
+        margin-top: 0.8rem;
+    }
+
+    .intro-text span {
+        font-size: 0.85rem;
+    }
+
+    .button {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        display: flex;
+    }
+
+    .button a {
+        font-size: 0.65rem;
+    }
+
+    .blog-header h3,
+    .profile-title h3,
+    .project-title h3 {
+        font-size: 1.8rem;
+        padding: 0rem 1.25rem;
+    }
+
+    .project-card {
+        display: none;
+    }
+
+    .project-card-mobile {
+        display: block;
+    }
+
+     .image-one-mobile{
+        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/password-image.jpeg");
+    }
+    
+    .image-two-mobile{
+        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/colmar_academy.jpeg");   
+    }
+    
+    .image-three-mobile {
+        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/rock-paper-scissors.png");
+    }
+    
+    .image-four-mobile{
+        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/excursion.jpeg");
+    }
+    
+    .image-one-mobile,
+    .image-two-mobile,
+    .image-three-mobile,
+    .image-four-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+        background-size: cover;
+        width: 400px;
+        height: 204px;
+        margin: 0.625rem;
+    }
+    
+    .image-one-mobile a,
+    .image-two-mobile a,
+    .image-three-mobile a,
+    .image-four-mobile a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.25rem;
+        opacity: 1;
+    }
+    
+    .image-three-mobile a {
+        color: black;
+    }
+
+    .profile-details {
+        display: none;
+    }
+
+    .profile-details-mobile {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        flex-shrink: 2;
+    }
+
+    .profile-container {
+        padding: 0.625rem 0.938rem;
+    }
+
+    .profile-text {
+        font-size: 0.9rem;
+    }
+
+    .footer-text {
+        font-size: 0.6rem;
+    }
+
+    .footer-text a {
+        font-size: 1rem;
+    }
+
+    .footer-text p {
+        display: none;
+    }
+}
