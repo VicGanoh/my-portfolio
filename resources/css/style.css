@@ -272,19 +272,19 @@ main {
 }
 
 .image-one {
-    background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/password-image.jpg");
+    background-image: url("../images/password-image.jpg");
 }
 
 .image-two {
-    background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/colmar_academy.jpg");
+    background-image: url("../images/colmar_academy.jpg");
 }
 
 .image-three {
-    background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/rock-paper-scissors.jpg");
+    background-image: url("../images/rock-paper-scissors.jpg");
 }
 
 .image-four {
-    background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/excursion.jpg");
+    background-image: url("../images/excursion.jpg");
 }
 
 .image-one,
@@ -493,19 +493,19 @@ main {
     }
 
     .image-one-mobile{
-        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/password-image.jpg");
+        background-image: url("../images/password-image.jpg");
     }
     
     .image-two-mobile{
-        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/colmar_academy.jpg");   
+        background-image: url("../images/colmar_academy.jpg");   
     }
     
     .image-three-mobile {
-        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/rock-paper-scissors.jpg");
+        background-image: url("../images/rock-paper-scissors.jpg");
     }
     
     .image-four-mobile{
-        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/excursion.jpg");
+        background-image: url("../images/excursion.jpg");
     }
     
     .image-one-mobile,
@@ -597,21 +597,21 @@ main {
     }
 
     .image-one-mobile{
-        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/password-image.jpg");
+        background-image: url("../images/password-image.jpg");
     }
     
     .image-two-mobile{
-        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/colmar_academy.jpg");   
+        background-image: url("../images/colmar_academy.jpg");   
     }
     
     .image-three-mobile {
-        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/rock-paper-scissors.jpg");
+        background-image: url("../images/rock-paper-scissors.jpg");
     }
     
     .image-four-mobile{
-        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/excursion.jpg");
+        background-image: url("../images/excursion.jpg");
     }
-    
+
     .image-one-mobile,
     .image-two-mobile,
     .image-three-mobile,
@@ -701,20 +701,20 @@ main {
         display: block;
     }
 
-    .image-one-mobile{
-        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/password-image.jpg");
+       .image-one-mobile{
+        background-image: url("../images/password-image.jpg");
     }
     
     .image-two-mobile{
-        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/colmar_academy.jpg");   
+        background-image: url("../images/colmar_academy.jpg");   
     }
     
     .image-three-mobile {
-        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/rock-paper-scissors.jpg");
+        background-image: url("../images/rock-paper-scissors.jpg");
     }
     
     .image-four-mobile{
-        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/excursion.jpg");
+        background-image: url("../images/excursion.jpg");
     }
     
     .image-one-mobile,
@@ -851,20 +851,20 @@ main {
         display: block;
     }
 
-     .image-one-mobile{
-        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/password-image.jpg");
+    .image-one-mobile{
+        background-image: url("../images/password-image.jpg");
     }
     
     .image-two-mobile{
-        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/colmar_academy.jpg");   
+        background-image: url("../images/colmar_academy.jpg");   
     }
     
     .image-three-mobile {
-        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/rock-paper-scissors.jpg");
+        background-image: url("../images/rock-paper-scissors.jpg");
     }
     
     .image-four-mobile{
-        background-image: url("/Users/vicgan/Documents/Codecacademy/portfolio_site/resources/images/excursion.jpg");
+        background-image: url("../images/excursion.jpg");
     }
     
     .image-one-mobile,
